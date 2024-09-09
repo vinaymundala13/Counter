@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+
+}
+.container{
+    background-color:black;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    box-shadow:  inset 0 -3em 3em rgba(0, 200, 0, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(200, 0, 0, 0.6); 
+    padding: 20px;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10spx;
+}
+#value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 10px;
+    font-size: 30px;
+}
+.btn_con{
+    margin: 3px 3px;
+    padding: 5px 5px;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+.btn{
+    font-size: 15px;
+    padding: 5px 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.decrease{
+    margin-right: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.decrease:hover{
+    background-color: red;
+    color: white;
+    transition: 1s ease;
+}
+.increase:hover{
+    background-color: green;
+    color: white;
+    transition: 1s ease;
+}
+.reset{
+    margin-right: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.increase{
+    margin-right: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
